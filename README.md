@@ -2,7 +2,7 @@
 A set of sample applications designed using Spring Boot to demonstrate setting up a microservice architecture and using
 service discovery to access the different service.
 
-##Project Structure
+## Project Structure
 - `dataservice` - Represents the service that would be connected to your datastore and 
 could have multiple nodes.
 - `restservice` - Represents the client facing REST API server which could have multiple nodes and could be serviced 
@@ -10,7 +10,7 @@ via an Application Gateway
 - `eureka` - Represents the Eureka discovery service server which the other services call to register themselves. This
 could also be deployed on multiple nodes to handle failover of the Eureka server.
 
-##Usage
+## Usage
 You can spin up the services by the following command via the command line:
 ``
 mvn spring-boot:run
